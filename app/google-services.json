@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "103386372363",
+    "firebase_url": "https://scrumbot-10.firebaseio.com",
+    "project_id": "scrumbot-10",
+    "storage_bucket": "scrumbot-10.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:103386372363:android:cad5006dafeb7dc1",
+        "android_client_info": {
+          "package_name": "com.example.scrumbot10"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "103386372363-b8llsdlqdqfl4kruuu32pc7vhcvvu6bp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.scrumbot10",
+            "certificate_hash": "6279e836415331c730496873e884a02cd037f31b"
+          }
+        },
+        {
+          "client_id": "103386372363-1q10501r8aien7l1gejk6p31443b597n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD9aKK648pTfnHSv9loK-csD5H-WHZy1vE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "103386372363-1q10501r8aien7l1gejk6p31443b597n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
