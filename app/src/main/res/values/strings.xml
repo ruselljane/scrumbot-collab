@@ -4,4 +4,6 @@
     <string name="result">Upload</string>
     <string name="image">Scan</string>
     <string name="dragDrop">Drag and Drop</string>
+
+
 </resources>

@@ -12,15 +12,17 @@
         android:layout_height="50dp">
 
         <TableRow>
-            <TextView
-                android:id="@+id/menu"
+            <ImageButton
+                android:id="@+id/menubtn"
                 android:layout_width="40dp"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_vertical"
                 android:background="@android:color/transparent"
                 android:layout_alignParentTop="true"
                 android:layout_centerHorizontal="true"
-                android:text="ww"/>
+                android:layout_alignParentRight="true"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/menu"  />
 
             <TextView
                 android:layout_width="wrap_content"
