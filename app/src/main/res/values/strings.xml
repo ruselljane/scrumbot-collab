@@ -1,9 +1,13 @@
 <resources>
     <string name="app_name">scrumbot 1.0</string>
-    <string name="camera">Camera</string>
-    <string name="result">Upload</string>
+
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+
+    <string name="scan">Scan</string>
+    <string name="upload">Upload</string>
     <string name="image">Scan</string>
     <string name="dragDrop">Drag and Drop</string>
-
-
+    <string name="sample">lorem itsum dolor sit amet \n Trolo \nHi</string>
+    <string name="welcome">Welcome!</string>
 </resources>

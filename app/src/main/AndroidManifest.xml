@@ -17,7 +17,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Result"></activity>
+        <activity android:name=".drawer"></activity>
+        <activity android:name=".titlebar" />
+        <activity android:name=".Result" />
         <activity android:name=".DragDrop" />
         <activity android:name=".AddImage" />
         <activity android:name=".Splash">

@@ -6,51 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".Result">
 
-    <TableLayout
-        android:layout_width="match_parent"
-        android:layout_height="50dp">
-
-        <TableRow>
-
-            <ImageButton
-                android:id="@+id/menubtn"
-                android:layout_width="40dp"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center_vertical"
-                android:background="@android:color/transparent"
-                android:layout_alignParentTop="true"
-                android:layout_centerHorizontal="true"
-                android:layout_alignParentRight="true"
-                android:scaleType="fitCenter"
-                app:srcCompat="@drawable/menu"  />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_centerInParent="true"
-                android:orientation="vertical"
-                android:gravity="center_horizontal"
-                android:textStyle="bold"
-                android:padding="10dp"
-                android:layout_alignParentTop="true"
-                android:layout_weight="1"
-                android:text="scrumpad"
-                android:textSize="24sp"
-                android:fontFamily="@font/product_sans"/>
-
-            <Button
-                android:id="@+id/search"
-                android:layout_width="40dp"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center_vertical"
-                android:background="#F0F0F2"
-                android:layout_alignParentTop="true"
-                android:layout_centerHorizontal="true"
-                android:drawableLeft="@android:drawable/ic_menu_search"/>
-
-        </TableRow>
-
-    </TableLayout>
+    <include layout="@layout/activity_titlebar" />
 
     <ScrollView
         android:layout_width="match_parent"

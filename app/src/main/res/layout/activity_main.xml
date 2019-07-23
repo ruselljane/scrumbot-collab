@@ -7,50 +7,7 @@
     android:background="@color/colorPrimary"
     tools:context=".MainActivity">
 
-    <TableLayout
-        android:layout_width="match_parent"
-        android:layout_height="50dp">
-
-        <TableRow>
-            <ImageButton
-                android:id="@+id/menubtn"
-                android:layout_width="40dp"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center_vertical"
-                android:background="@android:color/transparent"
-                android:layout_alignParentTop="true"
-                android:layout_centerHorizontal="true"
-                android:layout_alignParentRight="true"
-                android:scaleType="fitCenter"
-                app:srcCompat="@drawable/menu"  />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_centerInParent="true"
-                android:orientation="vertical"
-                android:gravity="center_horizontal"
-                android:textStyle="bold"
-                android:padding="10dp"
-                android:layout_alignParentTop="true"
-                android:layout_weight="1"
-                android:text="scrumpad"
-                android:textSize="24sp"
-                android:fontFamily="@font/product_sans"/>
-
-            <Button
-                android:id="@+id/search"
-                android:layout_width="40dp"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center_vertical"
-                android:background="#F0F0F2"
-                android:layout_alignParentTop="true"
-                android:layout_centerHorizontal="true"
-                android:drawableLeft="@android:drawable/ic_menu_search"/>
-
-        </TableRow>
-
-    </TableLayout>
+    <include layout="@layout/activity_titlebar" />
 
     <TextView
         android:id="@+id/welcome"
@@ -61,7 +18,7 @@
         android:layout_marginTop="197dp"
         android:layout_marginBottom="468dp"
         android:fontFamily="@font/product_sans_bold"
-        android:text="Welcome!"
+        android:text="@string/welcome"
         android:textColor="#000000"
         android:textSize="30sp" />
 
@@ -74,48 +31,49 @@
         android:layout_marginStart="117dp"
         android:layout_marginTop="255dp"
         android:layout_marginEnd="117dp"
-        android:text="lorem itsum dolor sit amet"
+        android:text="@string/sample"
         android:textSize="15sp"
         android:fontFamily="@font/product_sans"/>
 
-
     <Button
         android:id="@+id/scan"
-        android:layout_width="225dp"
+        android:layout_width="match_parent"
         android:layout_height="50dp"
+        android:layout_alignTop="@+id/details"
         android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
         android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
         android:layout_marginStart="93dp"
-        android:layout_marginTop="316dp"
-        android:layout_marginEnd="93dp"
-        android:layout_marginBottom="357dp"
+        android:layout_marginLeft="93dp"
+        android:layout_marginTop="118dp"
+        android:layout_marginEnd="92dp"
+        android:layout_marginRight="92dp"
         android:background="@drawable/btn_default"
+        android:drawableLeft="@drawable/scan_icon"
+        android:fontFamily="@font/product_sans_bold"
+        android:textSize="18sp"
         android:paddingStart="30dp"
         android:paddingEnd="30dp"
-        android:drawableStart="@android:drawable/ic_menu_search"
-        android:text="@string/image"
-        android:fontFamily="@font/product_sans"/>
+        android:text="@string/scan"/>
 
     <Button
         android:id="@+id/upload"
         android:layout_width="match_parent"
         android:layout_height="50dp"
-        android:layout_marginRight="93dp"
-        android:layout_marginLeft="93dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
         android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentEnd="true"
-        android:layout_marginTop="383dp"
-        android:layout_marginBottom="226dp"
+        android:layout_alignTop="@+id/scan"
+        android:layout_marginLeft="93dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginRight="92dp"
+        android:background="@drawable/btn_default"
+        android:drawableLeft="@drawable/upload_icon"
         android:paddingStart="30dp"
         android:paddingEnd="30dp"
-        android:background="@drawable/btn_default"
-        android:drawableStart="@android:drawable/ic_menu_search"
-        android:text="@string/result"
-        android:fontFamily="@font/product_sans"/>
-
-
-
+        android:text="@string/upload"
+        android:fontFamily="@font/product_sans_bold"
+        android:textSize="18sp" />
 
 </RelativeLayout>
